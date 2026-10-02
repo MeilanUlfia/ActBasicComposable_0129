@@ -25,5 +25,8 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun TugasLogin(modifier: Modifier = Modifier) {
+    Box(modifier = modifier.fillMaxSize()) {
+
+    }
 
 }
