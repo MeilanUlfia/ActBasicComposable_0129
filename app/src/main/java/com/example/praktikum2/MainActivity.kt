@@ -19,9 +19,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Praktikum2Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { _ ->
                     TugasLogin()
-                }
             }
         }
     }
