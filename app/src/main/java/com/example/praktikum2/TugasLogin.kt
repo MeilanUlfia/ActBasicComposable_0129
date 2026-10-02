@@ -71,6 +71,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     .border(3.dp, Color.White, CircleShape),
                 contentAlignment = Alignment.Center
             ) {
+                Image(
+                    painter = painterResource(id = R.drawable.snoopy),
+                    contentDescription = null,
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier.fillMaxSize()
+                )
 
             }
         }
