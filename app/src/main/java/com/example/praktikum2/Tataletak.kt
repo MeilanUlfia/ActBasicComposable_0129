@@ -123,17 +123,17 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                     modifier = modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    Text(text = "Col1_Row1_Komponen1")
-                    Text(text = "Col1_Row1_Komponen2")
-                    Text(text = "Col1_Row1_Komponen3")
+                    Text(text = "Col1_Row1_Komponen1", fontSize = 11.sp, color = Color(0xFF34495E))
+                    Text(text = "Col1_Row1_Komponen2", fontSize = 11.sp, color = Color(0xFF34495E))
+                    Text(text = "Col1_Row1_Komponen3", fontSize = 11.sp, color = Color(0xFF34495E))
                 }
                 Row(
                     modifier = modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    Text(text = "Col1_Row2_Komponen1")
-                    Text(text = "Col1_Row2_Komponen2")
-                    Text(text = "Col1_Row2_Komponen3")
+                    Text(text = "Col1_Row2_Komponen1", fontSize = 11.sp, color = Color(0xFF34495E))
+                    Text(text = "Col1_Row2_Komponen2", fontSize = 11.sp, color = Color(0xFF34495E))
+                    Text(text = "Col1_Row2_Komponen3", fontSize = 11.sp, color = Color(0xFF34495E))
                 }
             }
         }
