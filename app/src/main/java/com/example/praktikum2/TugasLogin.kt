@@ -59,6 +59,9 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             Spacer(modifier = Modifier.height(40.dp))
             Text("Nama", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = Color.Red)
             Text("Meilan Ulfia Nurfari'ah", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = Color.Blue)
+
+            Text("20240140129", fontSize = 18.sp, fontWeight = FontWeight.Bold, color = Color.Black)
+            Spacer(modifier = Modifier.height(8.dp))
         }
     }
 }
