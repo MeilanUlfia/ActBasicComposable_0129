@@ -19,11 +19,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Praktikum2Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // Panggil composable layout utama dengan padding dari Scaffold
-                    TataletakBoxColumnRow(
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                Scaffold(modifier = Modifier.fillMaxSize()) { _ ->
+                    TugasLogin()
                 }
             }
         }
