@@ -58,10 +58,10 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 modifier = Modifier.size(100.dp)
             )
             Spacer(modifier = Modifier.height(40.dp))
-            Text("Nama", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = Color.Red)
-            Text("Meilan Ulfia Nurfari'ah", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = Color.Blue)
+            Text("Nama", fontSize = 16.sp, fontWeight = FontWeight.ExtraBold, color = Color(0xFFB71C1C))
+            Text("Meilan Ulfia Nurfari'ah", fontSize = 18.sp, fontWeight = FontWeight.ExtraBold, color = Color(0xFF0D47A1))
 
-            Text("20240140129", fontSize = 18.sp, fontWeight = FontWeight.Bold, color = Color.Black)
+            Text("20240140129", fontSize = 22.sp, fontWeight = FontWeight.ExtraBold, color = Color.Black)
             Spacer(modifier = Modifier.height(8.dp))
 
             Box(
