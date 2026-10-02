@@ -26,7 +26,11 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun TugasLogin(modifier: Modifier = Modifier) {
     Box(modifier = modifier.fillMaxSize()) {
-
+        Image(
+            painter = painterResource(id = R.drawable.bg_snoopy),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
     }
-
 }
